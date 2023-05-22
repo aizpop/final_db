@@ -1,0 +1,220 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60%;
+  margin-top: -5px;
+}
+
+
+.faq-search-wrap {
+    padding: 200px 35px;
+    background-image: url('/images/mybg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -25%;
+    width: 125.8%;
+    position: center;
+    margin-bottom: 7%;
+}
+
+.faq-search-wrap h1{
+    margin-bottom:50px;
+    margin-top:0px;
+    margin-left:21%;
+    font-weight:bold;
+    font-size: 40px;
+    
+}
+.faq-search-wrap .form-group .form-control,
+.faq-search-wrap .form-group .dd-handle {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+
+.faq-search-wrap .form-group .input-group {
+    height: 40px;
+    width: 40%;
+    margin-left:40.1%;
+}
+
+.faq-search-wrap .form-group .input-group-append .input-group-text .btn > svg {
+    height: 40px;
+    width: 18px;
+
+
+}
+a:hover {
+    color: #0056b3; /* blue link color on hover */
+}
+    
+.row .col{
+    height:200%;
+
+}
+
+.row .col .card .card-body  {
+    margin-top:5%;
+  }
+.row .col .card .card-body p {
+    margin-top:10%;
+  }
+
+.hk-row {
+    margin:auto;
+    width: 75%;
+    margin-top:10%;
+    margin-bottom: 20%;
+}
+
+
+@media (min-width: 576px) {
+    .mt-sm-60 {
+        margin-top: 60px !important;
+    }
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+
+.hk-row .card .card-header a{
+
+    text-decoration: none;
+
+}
+.hk-row .accordion .card .card-header.activestate {
+    border-width: 1px;
+    text-decoration: none;
+}
+
+.hk-row .accordion .card .card-header {
+    padding: 0;
+    border-width: 0;
+}
+
+.hk-row .card.card-lg .card-header, .card.card-lg .card-footer {
+    padding: .9rem 1.5rem;
+}
+
+.hk-row .accordion > .card .card-header {
+    margin-bottom: -1px;
+}
+
+.hk-row .card .card-header {
+    background: transparent;
+    border: none;
+}
+
+.hk-row .accordion.accordion-type-2 .card .card-header > a.collapsed {
+    color: #324148;
+}
+
+
+.hk-row .accordion .card:first-of-type .card-header:first-child > a {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.hk-row .accordion.accordion-type-2 .card .card-header > a {
+    background: transparent;
+    color: #808080;
+    padding-left: 50px;
+}
+
+.hk-row .accordion .card .card-header > a.collapsed {
+    color: #324148;
+    background: transparent;
+}
+
+.hk-row .accordion .card .card-header > a {
+
+    color: #fff;
+    font-weight: 500;
+    padding: .75rem 1.25rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+
+.badge.badge-pill {
+    border-radius: 50px;
+}
+
+.badge.badge-light {
+    background: #eaecec;
+    color: #324148;
+}
+
+.badge {
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 5px 7px;
+    font-size: 72%;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ml-15 {
+    margin-left: 15px !important;
+}
+
+.hk-row .accordion.accordion-type-2 .card .card-header > a.collapsed:after {
+    content: "\f158";
+}
+
+.hk-row .accordion.accordion-type-2 .card .card-header > a::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Ionicons';
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: auto;
+    position: absolute;
+    content: "\f176";
+    font-size: 21px;
+    top: 15px;
+    left: 20px;
+}
+.hk-row .accordion.accordion-type-2 .card .card-body{
+    padding:3%;
+    width:95%;
+    margin:auto;
+
+}
+.mr-15 {
+    margin-right: 15px !important;
+}
+
+
+
